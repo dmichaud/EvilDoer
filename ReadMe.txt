@@ -2,7 +2,7 @@ EvilDoer
 ========
 
 Geoffrey Michaud
-David Michaud
+David M. Michaud
 Dean Michaud
 
 Links
