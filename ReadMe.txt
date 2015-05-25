@@ -1,9 +1,9 @@
 EvilDoer
 ========
 
-Geoffrey Michaud June 26, 2005
+Geoffrey Michaud
 David Michaud
-Dean Michaud August 11, 1971
+Dean Michaud
 
 Links
 -----
