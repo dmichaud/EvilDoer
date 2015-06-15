@@ -1,10 +1,17 @@
-EvilDoer
-========
+EvilDoer Read Me
+================
 
-Geoffrey Michaud June 26, 2005
-David Michaud
-Dean Michaud August 11, 1971
+EvilDoerGames is
+----------------
+-Geoffrey Michaud
+-David Michaud
+-Dean Michaud
 
-Links
------
-Download HitHub App: https://help.github.com/articles/set-up-git/
+Change Log
+----------
+2015/06/15
+Initial commit of EvilDoer project files
+
+GitHub Links
+------------
+Download GitHub App: https://help.github.com/articles/set-up-git/
