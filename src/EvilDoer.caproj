@@ -234,6 +234,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="healthValue" sid="8000207111252689">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Enemies" plugin-id="Sprite" sid="5793236906887723">

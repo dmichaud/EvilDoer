@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <comment>Global Variables</comment>
+        <variable constant="0" name="monsterHealth" sid="9134116306089964" static="0" type="number">1000</variable>
         <event-group description="" sid="1611193786629927" title="Player Control Handling">
             <sub-events>
                 <comment>Above Ground</comment>
