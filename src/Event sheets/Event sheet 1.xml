@@ -403,6 +403,56 @@
                         </action>
                     </actions>
                 </event-block>
+                <comment>When above ground decrement health really fast</comment>
+                <event-block sid="8431097198825749">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="1314018906394073" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="7510886614494806">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="4023797600325991" type="System">
+                                    <param id="0" name="First value">monsterhead.Y</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Second value">solidGroundObject.Y</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="7221702831764563" type="Function">
+                                    <param id="0" name="Name">&quot;updateMonsterHeadHealth&quot;</param>
+                                    <param id="1" name="Parameter {n}">-5</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>When below ground decrement health slowly</comment>
+                <event-block sid="4212920531196216">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="8697737129055028" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="8487328763059716">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="3533178788964901" type="System">
+                                    <param id="0" name="First value">monsterhead.Y</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Second value">solidGroundObject.Y</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="9796111106650207" type="Function">
+                                    <param id="0" name="Name">&quot;updateMonsterHeadHealth&quot;</param>
+                                    <param id="1" name="Parameter {n}">-5</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
         </event-group>
     </events>
