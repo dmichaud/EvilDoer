@@ -246,6 +246,7 @@
             </members>
             <instance-variables>
                 <instance-variable name="enemySpeed" sid="3261540459025145" type="number" />
+                <instance-variable name="monsterHeadHealthBonus" sid="5828317077205941" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Wrap2" sid="8632255547099789">

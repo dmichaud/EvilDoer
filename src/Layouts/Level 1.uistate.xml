@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>4195.48</position-x>
-        <position-y>326.522</position-y>
-        <position-z>87.6032</position-z>
-        <lookat-x>4195.48</lookat-x>
-        <lookat-y>326.522</lookat-y>
+        <position-x>915.923</position-x>
+        <position-y>233.301</position-y>
+        <position-z>170.714</position-z>
+        <lookat-x>915.923</lookat-x>
+        <lookat-y>233.301</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -25,11 +25,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <active-layer name="UI" />
     <layers>
-        <layer locked="1" name="sky_Layer0" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="sky_Layer1" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="sky_Layer2" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="ground" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="playSurface" parallax-in-editor="0" visible="0" />
+        <layer locked="1" name="sky_Layer0" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="sky_Layer1" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="sky_Layer2" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="ground" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="playSurface" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="UI" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

@@ -810,6 +810,7 @@
                     </properties>
                     <instance-variables>
                         <enemySpeed>20</enemySpeed>
+                        <monsterHeadHealthBonus>50</monsterHeadHealthBonus>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Wrap2">
@@ -965,6 +966,7 @@
                     </properties>
                     <instance-variables>
                         <enemySpeed>10</enemySpeed>
+                        <monsterHeadHealthBonus>15</monsterHeadHealthBonus>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Wrap2">
@@ -1172,9 +1174,9 @@
                     <properties>
                         <text>1000</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
+                        <font>Arial,-27,700,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
@@ -1183,11 +1185,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4438.578125</x>
-                        <y>7.208267212</y>
+                        <x>605.477233887</x>
+                        <y>4.66456604</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>242.924804688</width>
+                        <height>39.635314941</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
